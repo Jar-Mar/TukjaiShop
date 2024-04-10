@@ -1,0 +1,14 @@
+{
+    "ID" : "", 
+    "Detail" : "", 
+    "VendorsIDs" : "", 
+    "Date" : "str", 
+    "Costs" : 1000, 
+    "SellDate": "A" ,
+    "Price" : 2000 ,
+    "Size" : {
+        "Width" : 10 ,
+        "Height" : 100,
+        "Length" : 100
+    }
+}

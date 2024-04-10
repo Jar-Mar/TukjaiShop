@@ -1,0 +1,32 @@
+{
+    "Version": "0.0.1",
+    "DB": {
+        "IP" : "127.0.0.1",
+        "Port" : 27017,
+        "VendorDB": "",
+        "StockDB" : "",
+
+        "Vendor" : {
+            "Name": "N/A",
+            "Tel" : "N/A",
+            "Map" : "N/A"
+        },
+        "Stock" : {
+            "ID" : "" ,
+            "Date" : "",
+            "Costs" : 0 ,
+            "Vender": "",
+            "DateSell": "",
+            "Size" : {
+                "Width" : 0,
+                "Length" : 0,
+                "Height" : 0
+            },
+         "RecordSales":{
+            "ID" : "" ,
+            "Date" : "",
+            "Price" : ""
+         }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+#flow step
+
+1. Create new environment  pyhton
+https://khonkaen.dev/create-virtual-environment-python-macos/
+2. install pymongo db
+pip install pymongo
+3. Keep image 
+https://stackoverflow.com/questions/47668507/how-to-store-images-in-mongodb-through-pymongo
+
+fast api
+https://bdi.or.th/big-data-101/data-engineering/fastapi-framework-101/
+pip install fastapi
+pip install uvicorn
