@@ -13,7 +13,6 @@ class Item(BaseModel):
     price: float
     tax: float 
 
-        
 
 app = FastAPI()
 
@@ -91,7 +90,7 @@ async def instock():
     try:
         mydb = DBMongo()
         mydb.Connect_DB("TUKJAISHOP","Stock")
-        filter = { 'status': True }
+        filter = { 'status': True ,"Qty": {"$gt": 0}}
         Result = mydb.find(filter)
         data = {"status": True,"result" : Result}
         json = dumps(data)

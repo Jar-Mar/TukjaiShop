@@ -8,6 +8,7 @@ from pydantic import BaseModel
     
 class Stock (BaseModel):
     status : bool
+    Qty : int
     Type :str 
     Detail : str 
     VendorsIDs : str 
@@ -24,6 +25,11 @@ class Vender (BaseModel):
     Tel : str 
     BankAccount : str
     BankName : str
+
+
+
+    
+    
     
   
     
